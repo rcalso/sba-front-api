@@ -499,8 +499,8 @@ Services involved in **Account Summary API**
             "widgets": [
                 {
                   "status": "OPEN",
-                  "totalPostedBalance": "$40000.0",
-                  "totalAvailableBalance": "$36000.0",
+                  "totalPostedBalance": "$50000.0",
+                  "totalAvailableBalance": "$45000.0",
                   "checkingSavingMoneyMarketAccounts": [
                     {
                       "bbvaCompassAccount": true,
@@ -537,6 +537,16 @@ Services involved in **Account Summary API**
                       "hasAlert": false,
                       "nick": "Checking 4",
                       "accountNumber": "3333",
+                      "lastUpdated": "As of 00:00 hours ago",
+                      "accountType": "CHECKING",
+                      "postedBalance": 10000,
+                      "availableBalance": 9000
+                    },
+                    {
+                      "bbvaCompassAccount": false,
+                      "hasAlert": false,
+                      "nick": "Checking 5",
+                      "accountNumber": "4444",
                       "lastUpdated": "As of 00:00 hours ago",
                       "accountType": "CHECKING",
                       "postedBalance": 10000,
@@ -868,6 +878,15 @@ Services involved in **Account Summary API**
                       "lastUpdated": "As of 00:00 hours ago",
                       "accountType": "INV",
                       "value": 4000
+                    },
+                    {
+                      "bbvaCompassAccount": false,
+                      "hasAlert": true,
+                      "nick": "Credit 5",
+                      "accountNumber": "4444",
+                      "lastUpdated": "As of 00:00 hours ago",
+                      "accountType": "INV",
+                      "value": 5000
                     }
                   ],
                   "literals": {
@@ -980,7 +999,7 @@ Services involved in **Account Summary API**
       
         {
             "status": "OPEN",
-            "totalBalance": "$20000.0",
+            "totalBalance": "$30000.0",
             "creditCardLineCreditOverdraftProtectionAccounts": [
                 {
                   "bbvaCompassAccount": true,
@@ -1063,6 +1082,24 @@ Services involved in **Account Summary API**
                     {
                       "key": "Current Balance",
                       "value": 8000
+                    },
+                    {
+                      "key": "Available credit",
+                      "value": 4000
+                    }
+                  ]
+                },
+                {
+                  "bbvaCompassAccount": false,
+                  "hasAlert": false,
+                  "nick": "Credit 5",
+                  "accountNumber": "5555",
+                  "lastUpdated": "As of 00:00 hours ago",
+                  "accountType": "CREDIT_LINE",
+                  "details": [
+                    {
+                      "key": "Current Balance",
+                      "value": 10000
                     },
                     {
                       "key": "Available credit",
