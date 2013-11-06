@@ -1281,7 +1281,202 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
 
 + Response 200 (application/json)
 
-            {to: "be defined"}
+            {
+              "status": "OPEN",
+              "totalBalance": "$72000.0",
+              "creditCardLineCreditOverdraftProtectionAccounts": [
+                {
+                  "bbvaCompassAccount": true,
+                  "hasAlert": true,
+                  "nick": "Credit 0",
+                  "accountNumber": "0000",
+                  "lastUpdated": "As of 00:00 hours ago",
+                  "accountType": "CREDIT_CARD",
+                  "details": [
+                    {
+                      "key": "Current Balance",
+                      "value": 0
+                    },
+                    {
+                      "key": "Available credit",
+                      "value": 0
+                    },
+                    {
+                      "key": "Next Payment Date",
+                      "value": 1383740757018
+                    },
+                    {
+                      "key": "Min. Payment Amount",
+                      "value": 200
+                    }
+                  ]
+                },
+                {
+                  "bbvaCompassAccount": true,
+                  "hasAlert": false,
+                  "nick": "Credit 1",
+                  "accountNumber": "1111",
+                  "lastUpdated": "As of 00:00 hours ago",
+                  "accountType": "CREDIT_LINE",
+                  "details": [
+                    {
+                      "key": "Current Balance",
+                      "value": 2000
+                    },
+                    {
+                      "key": "Available credit",
+                      "value": 1000
+                    }
+                  ]
+                },
+                {
+                  "bbvaCompassAccount": false,
+                  "hasAlert": true,
+                  "nick": "Credit 2",
+                  "accountNumber": "2222",
+                  "lastUpdated": "As of 00:00 hours ago",
+                  "accountType": "CREDIT_CARD",
+                  "details": [
+                    {
+                      "key": "Current Balance",
+                      "value": 4000
+                    },
+                    {
+                      "key": "Available credit",
+                      "value": 2000
+                    },
+                    {
+                      "key": "Next Payment Date",
+                      "value": 1383740757019
+                    },
+                    {
+                      "key": "Min. Payment Amount",
+                      "value": 200
+                    }
+                  ]
+                },
+                {
+                  "bbvaCompassAccount": false,
+                  "hasAlert": false,
+                  "nick": "Credit 3",
+                  "accountNumber": "3333",
+                  "lastUpdated": "As of 00:00 hours ago",
+                  "accountType": "CREDIT_LINE",
+                  "details": [
+                    {
+                      "key": "Current Balance",
+                      "value": 6000
+                    },
+                    {
+                      "key": "Available credit",
+                      "value": 3000
+                    }
+                  ]
+                },
+                {
+                  "bbvaCompassAccount": true,
+                  "hasAlert": true,
+                  "nick": "Credit 4",
+                  "accountNumber": "4444",
+                  "lastUpdated": "As of 00:00 hours ago",
+                  "accountType": "CREDIT_LINE",
+                  "details": [
+                    {
+                      "key": "Current Balance",
+                      "value": 8000
+                    },
+                    {
+                      "key": "Available credit",
+                      "value": 4000
+                    }
+                  ]
+                },
+                {
+                  "bbvaCompassAccount": false,
+                  "hasAlert": false,
+                  "nick": "Credit 5",
+                  "accountNumber": "5555",
+                  "lastUpdated": "As of 00:00 hours ago",
+                  "accountType": "CREDIT_LINE",
+                  "details": [
+                    {
+                      "key": "Current Balance",
+                      "value": 10000
+                    },
+                    {
+                      "key": "Available credit",
+                      "value": 5000
+                    }
+                  ]
+                },
+                {
+                  "bbvaCompassAccount": true,
+                  "hasAlert": true,
+                  "nick": "Credit 6",
+                  "accountNumber": "6666",
+                  "lastUpdated": "As of 00:00 hours ago",
+                  "accountType": "CREDIT_LINE",
+                  "details": [
+                    {
+                      "key": "Current Balance",
+                      "value": 12000
+                    },
+                    {
+                      "key": "Available credit",
+                      "value": 6000
+                    }
+                  ]
+                },
+                {
+                  "bbvaCompassAccount": false,
+                  "hasAlert": false,
+                  "nick": "Credit 7",
+                  "accountNumber": "7777",
+                  "lastUpdated": "As of 00:00 hours ago",
+                  "accountType": "CREDIT_LINE",
+                  "details": [
+                    {
+                      "key": "Current Balance",
+                      "value": 14000
+                    },
+                    {
+                      "key": "Available credit",
+                      "value": 7000
+                    }
+                  ]
+                },
+                {
+                  "bbvaCompassAccount": true,
+                  "hasAlert": true,
+                  "nick": "Credit 8",
+                  "accountNumber": "8888",
+                  "lastUpdated": "As of 00:00 hours ago",
+                  "accountType": "CREDIT_LINE",
+                  "details": [
+                    {
+                      "key": "Current Balance",
+                      "value": 16000
+                    },
+                    {
+                      "key": "Available credit",
+                      "value": 8000
+                    }
+                  ]
+                }
+              ],
+              "literals": {
+                "title": "Certificate of Deposit and Retirement Accounts",
+                "header": {
+                  "alert": "Alert",
+                  "account": "Account",
+                  "type": "Type",
+                  "details": "Details"
+                },
+                "footer": {
+                  "total": "Total"
+                }
+              }
+            }
         
 
 + Response 200 (text/html)
