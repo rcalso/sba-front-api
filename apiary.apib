@@ -13,47 +13,7 @@ Services involved in **Account Summary API**
 
         {
           "widgets" : [ {
-            "status" : "OPEN",
             "type" : "CHECKING_SAVING",
-            "totalPosted" : "$40000.0",
-            "totalAvailable" : "$36000.0",
-            "checkingSavingMoneyMarketAccounts" : [ {
-              "nick" : "Checking 1",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            }, {
-              "nick" : "Checking 2",
-              "bbvaCompassAccount" : true,
-              "alert" : false,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            }, {
-              "nick" : "Checking 3",
-              "bbvaCompassAccount" : false,
-              "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            }, {
-              "nick" : "Checking 4",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            } ],
             "literals" : {
               "title" : "Checking, Savings and Money Market Accounts",
               "header" : {
@@ -66,52 +26,50 @@ Services involved in **Account Summary API**
               "footer" : {
                 "total" : "Total"
               }
-            }
+            },
+            "isOpen" : true,
+            "totalPosted" : "$40000.0",
+            "totalAvailable" : "$36000.0",
+            "checkingSavingMoneyMarketAccounts" : [ {
+              "nick" : "Checking 1",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CHECKING",
+              "number" : "0000",
+              "posted" : 10000,
+              "available" : 9000
+            }, {
+              "nick" : "Checking 2",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "CHECKING",
+              "number" : "1111",
+              "posted" : 10000,
+              "available" : 9000
+            }, {
+              "nick" : "Checking 3",
+              "bbvaCompassAccount" : false,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CHECKING",
+              "number" : "2222",
+              "posted" : 10000,
+              "available" : 9000
+            }, {
+              "nick" : "Checking 4",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "CHECKING",
+              "number" : "3333",
+              "posted" : 10000,
+              "available" : 9000
+            } ]
           }, {
-            "status" : "CLOSE",
             "type" : "CD_RETIREMENT",
             "total" : "$10000.0",
-            "certificateDepositRetirementAccounts" : [ {
-              "nick" : "Retirement 0",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 0
-            }, {
-              "nick" : "Retirement 1",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 1000
-            }, {
-              "nick" : "Retirement 2",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 2000
-            }, {
-              "nick" : "Retirement 3",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 3000
-            }, {
-              "nick" : "Retirement 4",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "4444",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 4000
-            } ],
             "literals" : {
               "title" : "Certificate of Deposit and Retirement Accounts",
               "header" : {
@@ -123,80 +81,52 @@ Services involved in **Account Summary API**
               "footer" : {
                 "total" : "Total"
               }
-            }
+            },
+            "isOpen" : false,
+            "certificateDepositRetirementAccounts" : [ {
+              "nick" : "Retirement 0",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CD",
+              "number" : "0000",
+              "amount" : 0
+            }, {
+              "nick" : "Retirement 1",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CD",
+              "number" : "1111",
+              "amount" : 1000
+            }, {
+              "nick" : "Retirement 2",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CD",
+              "number" : "2222",
+              "amount" : 2000
+            }, {
+              "nick" : "Retirement 3",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CD",
+              "number" : "3333",
+              "amount" : 3000
+            }, {
+              "nick" : "Retirement 4",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CD",
+              "number" : "4444",
+              "amount" : 4000
+            } ]
           }, {
-            "status" : "OPEN",
             "type" : "CREDITCARD_LINEOFCREDIT_OVERDRAFTPROTECTION",
             "total" : "$1200.0",
-            "creditCardLineCreditOverdraftProtectionAccounts" : [ {
-              "nick" : "Credit 0",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_CARD",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 0
-              }, {
-                "key" : "Available credit",
-                "value" : 0
-              }, {
-                "key" : "Next Payment Date",
-                "value" : "11/18/2013"
-              }, {
-                "key" : "Min. Payment Amount",
-                "value" : 200
-              } ]
-            }, {
-              "nick" : "Credit 1",
-              "bbvaCompassAccount" : true,
-              "alert" : false,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_LINE",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 200
-              }, {
-                "key" : "Available credit",
-                "value" : 1000
-              } ]
-            }, {
-              "nick" : "Credit 2",
-              "bbvaCompassAccount" : false,
-              "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_CARD",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 400
-              }, {
-                "key" : "Available credit",
-                "value" : 2000
-              }, {
-                "key" : "Next Payment Date",
-                "value" : "11/18/2013"
-              }, {
-                "key" : "Min. Payment Amount",
-                "value" : 200
-              } ]
-            }, {
-              "nick" : "Credit 3",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_LINE",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 600
-              }, {
-                "key" : "Available credit",
-                "value" : 3000
-              } ]
-            } ],
             "literals" : {
               "title" : "Credit Card, Line of Credit and Overdraft Protection",
               "header" : {
@@ -208,80 +138,80 @@ Services involved in **Account Summary API**
               "footer" : {
                 "total" : "Total"
               }
-            }
-          }, {
-            "status" : "CLOSE",
-            "type" : "LOAN_MORTGAGE",
-            "total" : "$6000.0",
-            "loanMortgateAccounts" : [ {
-              "nick" : "Loan 0",
+            },
+            "isOpen" : true,
+            "creditCardLineCreditOverdraftProtectionAccounts" : [ {
+              "nick" : "Credit 0",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "LOAN_ALS",
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_CARD",
               "details" : [ {
-                "key" : "Payoff Balance",
+                "key" : "Current Balance",
                 "value" : 0
               }, {
-                "key" : "Next Payment Date",
-                "value" : "11/18/2013"
-              }, {
-                "key" : "Min. Payment Amount",
+                "key" : "Available credit",
                 "value" : 0
-              } ]
-            }, {
-              "nick" : "Loan 1",
-              "bbvaCompassAccount" : true,
-              "alert" : false,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "LOAN_ALS",
-              "details" : [ {
-                "key" : "Payoff Balance",
-                "value" : 1000
               }, {
                 "key" : "Next Payment Date",
                 "value" : "11/18/2013"
               }, {
                 "key" : "Min. Payment Amount",
                 "value" : 200
-              } ]
+              } ],
+              "number" : "0000"
             }, {
-              "nick" : "Loan 2",
+              "nick" : "Credit 1",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_LINE",
+              "details" : [ {
+                "key" : "Current Balance",
+                "value" : 200
+              }, {
+                "key" : "Available credit",
+                "value" : 1000
+              } ],
+              "number" : "1111"
+            }, {
+              "nick" : "Credit 2",
               "bbvaCompassAccount" : false,
               "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "LOAN_LOC",
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_CARD",
               "details" : [ {
-                "key" : "Payoff Balance",
+                "key" : "Current Balance",
+                "value" : 400
+              }, {
+                "key" : "Available credit",
                 "value" : 2000
               }, {
                 "key" : "Next Payment Date",
                 "value" : "11/18/2013"
               }, {
                 "key" : "Min. Payment Amount",
-                "value" : 400
-              } ]
+                "value" : 200
+              } ],
+              "number" : "2222"
             }, {
-              "nick" : "Loan 3",
+              "nick" : "Credit 3",
               "bbvaCompassAccount" : false,
               "alert" : false,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "LOAN_LOC",
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_LINE",
               "details" : [ {
-                "key" : "Payoff Balance",
-                "value" : 3000
-              }, {
-                "key" : "Next Payment Date",
-                "value" : "11/18/2013"
-              }, {
-                "key" : "Min. Payment Amount",
+                "key" : "Current Balance",
                 "value" : 600
-              } ]
-            } ],
+              }, {
+                "key" : "Available credit",
+                "value" : 3000
+              } ],
+              "number" : "3333"
+            } ]
+          }, {
+            "type" : "LOAN_MORTGAGE",
+            "total" : "$6000.0",
             "literals" : {
               "title" : "Loan and Mortgage Accounts",
               "header" : {
@@ -294,44 +224,80 @@ Services involved in **Account Summary API**
                 "total" : "Total",
                 "legal" : "* Balance shown in an estimated one-day payoff balance."
               }
-            }
+            },
+            "isOpen" : false,
+            "loanMortgateAccounts" : [ {
+              "nick" : "Loan 0",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "LOAN_ALS",
+              "details" : [ {
+                "key" : "Payoff Balance",
+                "value" : 0
+              }, {
+                "key" : "Next Payment Date",
+                "value" : "11/18/2013"
+              }, {
+                "key" : "Min. Payment Amount",
+                "value" : 0
+              } ],
+              "number" : "0000"
+            }, {
+              "nick" : "Loan 1",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "LOAN_ALS",
+              "details" : [ {
+                "key" : "Payoff Balance",
+                "value" : 1000
+              }, {
+                "key" : "Next Payment Date",
+                "value" : "11/18/2013"
+              }, {
+                "key" : "Min. Payment Amount",
+                "value" : 200
+              } ],
+              "number" : "1111"
+            }, {
+              "nick" : "Loan 2",
+              "bbvaCompassAccount" : false,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "LOAN_LOC",
+              "details" : [ {
+                "key" : "Payoff Balance",
+                "value" : 2000
+              }, {
+                "key" : "Next Payment Date",
+                "value" : "11/18/2013"
+              }, {
+                "key" : "Min. Payment Amount",
+                "value" : 400
+              } ],
+              "number" : "2222"
+            }, {
+              "nick" : "Loan 3",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "LOAN_LOC",
+              "details" : [ {
+                "key" : "Payoff Balance",
+                "value" : 3000
+              }, {
+                "key" : "Next Payment Date",
+                "value" : "11/18/2013"
+              }, {
+                "key" : "Min. Payment Amount",
+                "value" : 600
+              } ],
+              "number" : "3333"
+            } ]
           }, {
-            "status" : "OPEN",
             "type" : "INVESTMENT",
             "total" : "$6000.0",
-            "investmentAccounts" : [ {
-              "nick" : "Credit 0",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 0
-            }, {
-              "nick" : "Credit 1",
-              "bbvaCompassAccount" : true,
-              "alert" : false,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 1000
-            }, {
-              "nick" : "Credit 2",
-              "bbvaCompassAccount" : false,
-              "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 2000
-            }, {
-              "nick" : "Credit 3",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 3000
-            } ],
             "literals" : {
               "title" : "Investment Accounts",
               "header" : {
@@ -343,11 +309,56 @@ Services involved in **Account Summary API**
               "footer" : {
                 "total" : "Total"
               }
-            }
+            },
+            "isOpen" : true,
+            "investmentAccounts" : [ {
+              "nick" : "Credit 0",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "0000",
+              "amount" : 0
+            }, {
+              "nick" : "Credit 1",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "1111",
+              "amount" : 1000
+            }, {
+              "nick" : "Credit 2",
+              "bbvaCompassAccount" : false,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "2222",
+              "amount" : 2000
+            }, {
+              "nick" : "Credit 3",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "3333",
+              "amount" : 3000
+            } ]
           }, {
-            "status" : "OPEN",
             "type" : "REAL_ESTATE",
             "total" : "$15000.0",
+            "literals" : {
+              "title" : "Real Estate",
+              "header" : {
+                "description" : "Description",
+                "percent" : "% Home Equity Amount",
+                "amount" : "Home Equity Amount"
+              },
+              "footer" : {
+                "total" : "Total"
+              }
+            },
+            "isOpen" : true,
             "realEstateAccounts" : [ {
               "nick" : "Real 0",
               "percent" : "0.00%",
@@ -368,54 +379,9 @@ Services involved in **Account Summary API**
               "nick" : "Real 4",
               "percent" : "40.00%",
               "amount" : 6000
-            } ],
-            "literals" : {
-              "title" : "Real Estate",
-              "header" : {
-                "description" : "Description",
-                "percent" : "% Home Equity Amount",
-                "amount" : "Home Equity Amount"
-              },
-              "footer" : {
-                "total" : "Total"
-              }
-            }
+            } ]
           }, {
-            "status" : "OPEN",
             "type" : "REWARDS",
-            "rewardsAccounts" : [ {
-              "nick" : "Rewards 0",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "REWARDS",
-              "balance" : 0
-            }, {
-              "nick" : "Rewards 1",
-              "bbvaCompassAccount" : true,
-              "alert" : false,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "REWARDS",
-              "balance" : 1000
-            }, {
-              "nick" : "Rewards 2",
-              "bbvaCompassAccount" : false,
-              "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "REWARDS",
-              "balance" : 2000
-            }, {
-              "nick" : "Rewards 3",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "REWARDS",
-              "balance" : 3000
-            } ],
             "literals" : {
               "title" : "Rewards",
               "header" : {
@@ -424,7 +390,41 @@ Services involved in **Account Summary API**
                 "number" : "Number",
                 "amount" : "Balance"
               }
-            }
+            },
+            "isOpen" : true,
+            "rewardsAccounts" : [ {
+              "nick" : "Rewards 0",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "REWARDS",
+              "balance" : 0,
+              "number" : "0000"
+            }, {
+              "nick" : "Rewards 1",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "REWARDS",
+              "balance" : 1000,
+              "number" : "1111"
+            }, {
+              "nick" : "Rewards 2",
+              "bbvaCompassAccount" : false,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "REWARDS",
+              "balance" : 2000,
+              "number" : "2222"
+            }, {
+              "nick" : "Rewards 3",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "REWARDS",
+              "balance" : 3000,
+              "number" : "3333"
+            } ]
           } ]
         }
         
@@ -434,83 +434,7 @@ Services involved in **Account Summary API**
       
         {
           "widgets" : [ {
-            "status" : "OPEN",
             "type" : "CHECKING_SAVING",
-            "totalPosted" : "$80000.0",
-            "totalAvailable" : "$72000.0",
-            "checkingSavingMoneyMarketAccounts" : [ {
-              "nick" : "Checking 1",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            }, {
-              "nick" : "Checking 2",
-              "bbvaCompassAccount" : true,
-              "alert" : false,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            }, {
-              "nick" : "Checking 3",
-              "bbvaCompassAccount" : false,
-              "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            }, {
-              "nick" : "Checking 4",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            }, {
-              "nick" : "Checking 5",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "4444",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            }, {
-              "nick" : "Checking 6",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "5555",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            }, {
-              "nick" : "Checking 7",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "6666",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            }, {
-              "nick" : "Checking 8",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "7777",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            } ],
             "literals" : {
               "title" : "Checking, Savings and Money Market Accounts",
               "header" : {
@@ -523,52 +447,50 @@ Services involved in **Account Summary API**
               "footer" : {
                 "total" : "Total"
               }
-            }
+            },
+            "isOpen" : true,
+            "totalPosted" : "$40000.0",
+            "totalAvailable" : "$36000.0",
+            "checkingSavingMoneyMarketAccounts" : [ {
+              "nick" : "Checking 1",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CHECKING",
+              "number" : "0000",
+              "posted" : 10000,
+              "available" : 9000
+            }, {
+              "nick" : "Checking 2",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "CHECKING",
+              "number" : "1111",
+              "posted" : 10000,
+              "available" : 9000
+            }, {
+              "nick" : "Checking 3",
+              "bbvaCompassAccount" : false,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CHECKING",
+              "number" : "2222",
+              "posted" : 10000,
+              "available" : 9000
+            }, {
+              "nick" : "Checking 4",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "CHECKING",
+              "number" : "3333",
+              "posted" : 10000,
+              "available" : 9000
+            } ]
           }, {
-            "status" : "CLOSE",
             "type" : "CD_RETIREMENT",
             "total" : "$10000.0",
-            "certificateDepositRetirementAccounts" : [ {
-              "nick" : "Retirement 0",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 0
-            }, {
-              "nick" : "Retirement 1",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 1000
-            }, {
-              "nick" : "Retirement 2",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 2000
-            }, {
-              "nick" : "Retirement 3",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 3000
-            }, {
-              "nick" : "Retirement 4",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "4444",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 4000
-            } ],
             "literals" : {
               "title" : "Certificate of Deposit and Retirement Accounts",
               "header" : {
@@ -580,122 +502,52 @@ Services involved in **Account Summary API**
               "footer" : {
                 "total" : "Total"
               }
-            }
-          }, {
-            "status" : "OPEN",
-            "type" : "CREDITCARD_LINEOFCREDIT_OVERDRAFTPROTECTION",
-            "total" : "$4200.0",
-            "creditCardLineCreditOverdraftProtectionAccounts" : [ {
-              "nick" : "Credit 0",
+            },
+            "isOpen" : false,
+            "certificateDepositRetirementAccounts" : [ {
+              "nick" : "Retirement 0",
               "bbvaCompassAccount" : true,
               "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CD",
               "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_CARD",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 0
-              }, {
-                "key" : "Available credit",
-                "value" : 0
-              }, {
-                "key" : "Next Payment Date",
-                "value" : "11/18/2013"
-              }, {
-                "key" : "Min. Payment Amount",
-                "value" : 200
-              } ]
+              "amount" : 0
             }, {
-              "nick" : "Credit 1",
+              "nick" : "Retirement 1",
               "bbvaCompassAccount" : true,
-              "alert" : false,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CD",
               "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_LINE",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 200
-              }, {
-                "key" : "Available credit",
-                "value" : 1000
-              } ]
+              "amount" : 1000
             }, {
-              "nick" : "Credit 2",
-              "bbvaCompassAccount" : false,
+              "nick" : "Retirement 2",
+              "bbvaCompassAccount" : true,
               "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CD",
               "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_CARD",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 400
-              }, {
-                "key" : "Available credit",
-                "value" : 2000
-              }, {
-                "key" : "Next Payment Date",
-                "value" : "11/18/2013"
-              }, {
-                "key" : "Min. Payment Amount",
-                "value" : 200
-              } ]
+              "amount" : 2000
             }, {
-              "nick" : "Credit 3",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
+              "nick" : "Retirement 3",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CD",
               "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_LINE",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 600
-              }, {
-                "key" : "Available credit",
-                "value" : 3000
-              } ]
+              "amount" : 3000
             }, {
-              "nick" : "Credit 4",
+              "nick" : "Retirement 4",
               "bbvaCompassAccount" : true,
               "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CD",
               "number" : "4444",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_LINE",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 800
-              }, {
-                "key" : "Available credit",
-                "value" : 4000
-              } ]
-            }, {
-              "nick" : "Credit 5",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "5555",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_LINE",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 1000
-              }, {
-                "key" : "Available credit",
-                "value" : 5000
-              } ]
-            }, {
-              "nick" : "Credit 6",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "6666",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_LINE",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 1200
-              }, {
-                "key" : "Available credit",
-                "value" : 6000
-              } ]
-            } ],
+              "amount" : 4000
+            } ]
+          }, {
+            "type" : "CREDITCARD_LINEOFCREDIT_OVERDRAFTPROTECTION",
+            "total" : "$1200.0",
             "literals" : {
               "title" : "Credit Card, Line of Credit and Overdraft Protection",
               "header" : {
@@ -707,80 +559,80 @@ Services involved in **Account Summary API**
               "footer" : {
                 "total" : "Total"
               }
-            }
-          }, {
-            "status" : "CLOSE",
-            "type" : "LOAN_MORTGAGE",
-            "total" : "$6000.0",
-            "loanMortgateAccounts" : [ {
-              "nick" : "Loan 0",
+            },
+            "isOpen" : true,
+            "creditCardLineCreditOverdraftProtectionAccounts" : [ {
+              "nick" : "Credit 0",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "LOAN_ALS",
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_CARD",
               "details" : [ {
-                "key" : "Payoff Balance",
+                "key" : "Current Balance",
                 "value" : 0
               }, {
-                "key" : "Next Payment Date",
-                "value" : "11/18/2013"
-              }, {
-                "key" : "Min. Payment Amount",
+                "key" : "Available credit",
                 "value" : 0
-              } ]
-            }, {
-              "nick" : "Loan 1",
-              "bbvaCompassAccount" : true,
-              "alert" : false,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "LOAN_ALS",
-              "details" : [ {
-                "key" : "Payoff Balance",
-                "value" : 1000
               }, {
                 "key" : "Next Payment Date",
                 "value" : "11/18/2013"
               }, {
                 "key" : "Min. Payment Amount",
                 "value" : 200
-              } ]
+              } ],
+              "number" : "0000"
             }, {
-              "nick" : "Loan 2",
+              "nick" : "Credit 1",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_LINE",
+              "details" : [ {
+                "key" : "Current Balance",
+                "value" : 200
+              }, {
+                "key" : "Available credit",
+                "value" : 1000
+              } ],
+              "number" : "1111"
+            }, {
+              "nick" : "Credit 2",
               "bbvaCompassAccount" : false,
               "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "LOAN_LOC",
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_CARD",
               "details" : [ {
-                "key" : "Payoff Balance",
+                "key" : "Current Balance",
+                "value" : 400
+              }, {
+                "key" : "Available credit",
                 "value" : 2000
               }, {
                 "key" : "Next Payment Date",
                 "value" : "11/18/2013"
               }, {
                 "key" : "Min. Payment Amount",
-                "value" : 400
-              } ]
+                "value" : 200
+              } ],
+              "number" : "2222"
             }, {
-              "nick" : "Loan 3",
+              "nick" : "Credit 3",
               "bbvaCompassAccount" : false,
               "alert" : false,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "LOAN_LOC",
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_LINE",
               "details" : [ {
-                "key" : "Payoff Balance",
-                "value" : 3000
-              }, {
-                "key" : "Next Payment Date",
-                "value" : "11/18/2013"
-              }, {
-                "key" : "Min. Payment Amount",
+                "key" : "Current Balance",
                 "value" : 600
-              } ]
-            } ],
+              }, {
+                "key" : "Available credit",
+                "value" : 3000
+              } ],
+              "number" : "3333"
+            } ]
+          }, {
+            "type" : "LOAN_MORTGAGE",
+            "total" : "$6000.0",
             "literals" : {
               "title" : "Loan and Mortgage Accounts",
               "header" : {
@@ -793,116 +645,80 @@ Services involved in **Account Summary API**
                 "total" : "Total",
                 "legal" : "* Balance shown in an estimated one-day payoff balance."
               }
-            }
+            },
+            "isOpen" : false,
+            "loanMortgateAccounts" : [ {
+              "nick" : "Loan 0",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "LOAN_ALS",
+              "details" : [ {
+                "key" : "Payoff Balance",
+                "value" : 0
+              }, {
+                "key" : "Next Payment Date",
+                "value" : "11/18/2013"
+              }, {
+                "key" : "Min. Payment Amount",
+                "value" : 0
+              } ],
+              "number" : "0000"
+            }, {
+              "nick" : "Loan 1",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "LOAN_ALS",
+              "details" : [ {
+                "key" : "Payoff Balance",
+                "value" : 1000
+              }, {
+                "key" : "Next Payment Date",
+                "value" : "11/18/2013"
+              }, {
+                "key" : "Min. Payment Amount",
+                "value" : 200
+              } ],
+              "number" : "1111"
+            }, {
+              "nick" : "Loan 2",
+              "bbvaCompassAccount" : false,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "LOAN_LOC",
+              "details" : [ {
+                "key" : "Payoff Balance",
+                "value" : 2000
+              }, {
+                "key" : "Next Payment Date",
+                "value" : "11/18/2013"
+              }, {
+                "key" : "Min. Payment Amount",
+                "value" : 400
+              } ],
+              "number" : "2222"
+            }, {
+              "nick" : "Loan 3",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "LOAN_LOC",
+              "details" : [ {
+                "key" : "Payoff Balance",
+                "value" : 3000
+              }, {
+                "key" : "Next Payment Date",
+                "value" : "11/18/2013"
+              }, {
+                "key" : "Min. Payment Amount",
+                "value" : 600
+              } ],
+              "number" : "3333"
+            } ]
           }, {
-            "status" : "OPEN",
             "type" : "INVESTMENT",
             "total" : "$78000.0",
-            "investmentAccounts" : [ {
-              "nick" : "Credit 0",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 0
-            }, {
-              "nick" : "Credit 1",
-              "bbvaCompassAccount" : true,
-              "alert" : false,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 1000
-            }, {
-              "nick" : "Credit 2",
-              "bbvaCompassAccount" : false,
-              "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 2000
-            }, {
-              "nick" : "Credit 3",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 3000
-            }, {
-              "nick" : "Credit 4",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "4444",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 4000
-            }, {
-              "nick" : "Credit 5",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "5555",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 5000
-            }, {
-              "nick" : "Credit 6",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "6666",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 6000
-            }, {
-              "nick" : "Credit 7",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "7777",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 7000
-            }, {
-              "nick" : "Credit 8",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "8888",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 8000
-            }, {
-              "nick" : "Credit 9",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "9999",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 9000
-            }, {
-              "nick" : "Credit 10",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "10101010",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 10000
-            }, {
-              "nick" : "Credit 11",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "11111111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 11000
-            }, {
-              "nick" : "Credit 12",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "12121212",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 12000
-            } ],
             "literals" : {
               "title" : "Investment Accounts",
               "header" : {
@@ -914,11 +730,128 @@ Services involved in **Account Summary API**
               "footer" : {
                 "total" : "Total"
               }
-            }
+            },
+            "isOpen" : true,
+            "investmentAccounts" : [ {
+              "nick" : "Credit 0",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "0000",
+              "amount" : 0
+            }, {
+              "nick" : "Credit 1",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "1111",
+              "amount" : 1000
+            }, {
+              "nick" : "Credit 2",
+              "bbvaCompassAccount" : false,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "2222",
+              "amount" : 2000
+            }, {
+              "nick" : "Credit 3",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "3333",
+              "amount" : 3000
+            }, {
+              "nick" : "Credit 4",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "4444",
+              "amount" : 4000
+            }, {
+              "nick" : "Credit 5",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "5555",
+              "amount" : 5000
+            }, {
+              "nick" : "Credit 6",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "6666",
+              "amount" : 6000
+            }, {
+              "nick" : "Credit 7",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "7777",
+              "amount" : 7000
+            }, {
+              "nick" : "Credit 8",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "8888",
+              "amount" : 8000
+            }, {
+              "nick" : "Credit 9",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "9999",
+              "amount" : 9000
+            }, {
+              "nick" : "Credit 10",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "10101010",
+              "amount" : 10000
+            }, {
+              "nick" : "Credit 11",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "11111111",
+              "amount" : 11000
+            }, {
+              "nick" : "Credit 12",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "12121212",
+              "amount" : 12000
+            } ]
           }, {
-            "status" : "OPEN",
             "type" : "REAL_ESTATE",
-            "total" : "$15000.0",
+            "total" : "$117000.0",
+            "literals" : {
+              "title" : "Real Estate",
+              "header" : {
+                "description" : "Description",
+                "percent" : "% Home Equity Amount",
+                "amount" : "Home Equity Amount"
+              },
+              "footer" : {
+                "total" : "Total"
+              }
+            },
+            "isOpen" : true,
             "realEstateAccounts" : [ {
               "nick" : "Real 0",
               "percent" : "0.00%",
@@ -939,54 +872,41 @@ Services involved in **Account Summary API**
               "nick" : "Real 4",
               "percent" : "40.00%",
               "amount" : 6000
-            } ],
-            "literals" : {
-              "title" : "Real Estate",
-              "header" : {
-                "description" : "Description",
-                "percent" : "% Home Equity Amount",
-                "amount" : "Home Equity Amount"
-              },
-              "footer" : {
-                "total" : "Total"
-              }
-            }
+            }, {
+              "nick" : "Real 5",
+              "percent" : "50.00%",
+              "amount" : 7500
+            }, {
+              "nick" : "Real 6",
+              "percent" : "60.00%",
+              "amount" : 9000
+            }, {
+              "nick" : "Real 7",
+              "percent" : "70.00%",
+              "amount" : 10500
+            }, {
+              "nick" : "Real 8",
+              "percent" : "80.00%",
+              "amount" : 12000
+            }, {
+              "nick" : "Real 9",
+              "percent" : "90.00%",
+              "amount" : 13500
+            }, {
+              "nick" : "Real 10",
+              "percent" : "100.00%",
+              "amount" : 15000
+            }, {
+              "nick" : "Real 11",
+              "percent" : "110.00%",
+              "amount" : 16500
+            }, {
+              "nick" : "Real 12",
+              "percent" : "120.00%",
+              "amount" : 18000
+            } ]
           }, {
-            "status" : "OPEN",
             "type" : "REWARDS",
-            "rewardsAccounts" : [ {
-              "nick" : "Rewards 0",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "REWARDS",
-              "balance" : 0
-            }, {
-              "nick" : "Rewards 1",
-              "bbvaCompassAccount" : true,
-              "alert" : false,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "REWARDS",
-              "balance" : 1000
-            }, {
-              "nick" : "Rewards 2",
-              "bbvaCompassAccount" : false,
-              "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "REWARDS",
-              "balance" : 2000
-            }, {
-              "nick" : "Rewards 3",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "REWARDS",
-              "balance" : 3000
-            } ],
             "literals" : {
               "title" : "Rewards",
               "header" : {
@@ -995,7 +915,41 @@ Services involved in **Account Summary API**
                 "number" : "Number",
                 "amount" : "Balance"
               }
-            }
+            },
+            "isOpen" : true,
+            "rewardsAccounts" : [ {
+              "nick" : "Rewards 0",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "REWARDS",
+              "balance" : 0,
+              "number" : "0000"
+            }, {
+              "nick" : "Rewards 1",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "REWARDS",
+              "balance" : 1000,
+              "number" : "1111"
+            }, {
+              "nick" : "Rewards 2",
+              "bbvaCompassAccount" : false,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "REWARDS",
+              "balance" : 2000,
+              "number" : "2222"
+            }, {
+              "nick" : "Rewards 3",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "REWARDS",
+              "balance" : 3000,
+              "number" : "3333"
+            } ]
           } ]
         }
        
@@ -1014,47 +968,7 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
 
         {
           "widgets" : [ {
-            "status" : "OPEN",
             "type" : "CHECKING_SAVING",
-            "totalPosted" : "$40000.0",
-            "totalAvailable" : "$36000.0",
-            "checkingSavingMoneyMarketAccounts" : [ {
-              "nick" : "Checking 1",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            }, {
-              "nick" : "Checking 2",
-              "bbvaCompassAccount" : true,
-              "alert" : false,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            }, {
-              "nick" : "Checking 3",
-              "bbvaCompassAccount" : false,
-              "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            }, {
-              "nick" : "Checking 4",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CHECKING",
-              "posted" : 10000,
-              "available" : 9000
-            } ],
             "literals" : {
               "title" : "Checking, Savings and Money Market Accounts",
               "header" : {
@@ -1067,52 +981,50 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
               "footer" : {
                 "total" : "Total"
               }
-            }
+            },
+            "isOpen" : true,
+            "totalPosted" : "$40000.0",
+            "totalAvailable" : "$36000.0",
+            "checkingSavingMoneyMarketAccounts" : [ {
+              "nick" : "Checking 1",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CHECKING",
+              "number" : "0000",
+              "posted" : 10000,
+              "available" : 9000
+            }, {
+              "nick" : "Checking 2",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "CHECKING",
+              "number" : "1111",
+              "posted" : 10000,
+              "available" : 9000
+            }, {
+              "nick" : "Checking 3",
+              "bbvaCompassAccount" : false,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CHECKING",
+              "number" : "2222",
+              "posted" : 10000,
+              "available" : 9000
+            }, {
+              "nick" : "Checking 4",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "CHECKING",
+              "number" : "3333",
+              "posted" : 10000,
+              "available" : 9000
+            } ]
           }, {
-            "status" : "CLOSE",
             "type" : "CD_RETIREMENT",
             "total" : "$10000.0",
-            "certificateDepositRetirementAccounts" : [ {
-              "nick" : "Retirement 0",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 0
-            }, {
-              "nick" : "Retirement 1",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 1000
-            }, {
-              "nick" : "Retirement 2",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 2000
-            }, {
-              "nick" : "Retirement 3",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 3000
-            }, {
-              "nick" : "Retirement 4",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "4444",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CD",
-              "amount" : 4000
-            } ],
             "literals" : {
               "title" : "Certificate of Deposit and Retirement Accounts",
               "header" : {
@@ -1124,108 +1036,52 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
               "footer" : {
                 "total" : "Total"
               }
-            }
-          }, {
-            "status" : "OPEN",
-            "type" : "CREDITCARD_LINEOFCREDIT_OVERDRAFTPROTECTION",
-            "total" : "$3000.0",
-            "creditCardLineCreditOverdraftProtectionAccounts" : [ {
-              "nick" : "Credit 0",
+            },
+            "isOpen" : false,
+            "certificateDepositRetirementAccounts" : [ {
+              "nick" : "Retirement 0",
               "bbvaCompassAccount" : true,
               "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CD",
               "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_CARD",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 0
-              }, {
-                "key" : "Available credit",
-                "value" : 0
-              }, {
-                "key" : "Next Payment Date",
-                "value" : "11/18/2013"
-              }, {
-                "key" : "Min. Payment Amount",
-                "value" : 200
-              } ]
+              "amount" : 0
             }, {
-              "nick" : "Credit 1",
+              "nick" : "Retirement 1",
               "bbvaCompassAccount" : true,
-              "alert" : false,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CD",
               "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_LINE",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 200
-              }, {
-                "key" : "Available credit",
-                "value" : 1000
-              } ]
+              "amount" : 1000
             }, {
-              "nick" : "Credit 2",
-              "bbvaCompassAccount" : false,
-              "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_CARD",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 400
-              }, {
-                "key" : "Available credit",
-                "value" : 2000
-              }, {
-                "key" : "Next Payment Date",
-                "value" : "11/18/2013"
-              }, {
-                "key" : "Min. Payment Amount",
-                "value" : 200
-              } ]
-            }, {
-              "nick" : "Credit 3",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_LINE",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 600
-              }, {
-                "key" : "Available credit",
-                "value" : 3000
-              } ]
-            }, {
-              "nick" : "Credit 4",
+              "nick" : "Retirement 2",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "number" : "4444",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_LINE",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 800
-              }, {
-                "key" : "Available credit",
-                "value" : 4000
-              } ]
+              "lastUpdated" : "05:29",
+              "type" : "CD",
+              "number" : "2222",
+              "amount" : 2000
             }, {
-              "nick" : "Credit 5",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "5555",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "CREDIT_LINE",
-              "details" : [ {
-                "key" : "Current Balance",
-                "value" : 1000
-              }, {
-                "key" : "Available credit",
-                "value" : 5000
-              } ]
-            } ],
+              "nick" : "Retirement 3",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CD",
+              "number" : "3333",
+              "amount" : 3000
+            }, {
+              "nick" : "Retirement 4",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CD",
+              "number" : "4444",
+              "amount" : 4000
+            } ]
+          }, {
+            "type" : "CREDITCARD_LINEOFCREDIT_OVERDRAFTPROTECTION",
+            "total" : "$5600.0",
             "literals" : {
               "title" : "Credit Card, Line of Credit and Overdraft Protection",
               "header" : {
@@ -1237,80 +1093,136 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
               "footer" : {
                 "total" : "Total"
               }
-            }
-          }, {
-            "status" : "CLOSE",
-            "type" : "LOAN_MORTGAGE",
-            "total" : "$6000.0",
-            "loanMortgateAccounts" : [ {
-              "nick" : "Loan 0",
+            },
+            "isOpen" : true,
+            "creditCardLineCreditOverdraftProtectionAccounts" : [ {
+              "nick" : "Credit 0",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "LOAN_ALS",
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_CARD",
               "details" : [ {
-                "key" : "Payoff Balance",
+                "key" : "Current Balance",
                 "value" : 0
               }, {
-                "key" : "Next Payment Date",
-                "value" : "11/18/2013"
-              }, {
-                "key" : "Min. Payment Amount",
+                "key" : "Available credit",
                 "value" : 0
-              } ]
-            }, {
-              "nick" : "Loan 1",
-              "bbvaCompassAccount" : true,
-              "alert" : false,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "LOAN_ALS",
-              "details" : [ {
-                "key" : "Payoff Balance",
-                "value" : 1000
               }, {
                 "key" : "Next Payment Date",
                 "value" : "11/18/2013"
               }, {
                 "key" : "Min. Payment Amount",
                 "value" : 200
-              } ]
+              } ],
+              "number" : "0000"
             }, {
-              "nick" : "Loan 2",
+              "nick" : "Credit 1",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_LINE",
+              "details" : [ {
+                "key" : "Current Balance",
+                "value" : 200
+              }, {
+                "key" : "Available credit",
+                "value" : 1000
+              } ],
+              "number" : "1111"
+            }, {
+              "nick" : "Credit 2",
               "bbvaCompassAccount" : false,
               "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "LOAN_LOC",
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_CARD",
               "details" : [ {
-                "key" : "Payoff Balance",
+                "key" : "Current Balance",
+                "value" : 400
+              }, {
+                "key" : "Available credit",
                 "value" : 2000
               }, {
                 "key" : "Next Payment Date",
                 "value" : "11/18/2013"
               }, {
                 "key" : "Min. Payment Amount",
-                "value" : 400
-              } ]
+                "value" : 200
+              } ],
+              "number" : "2222"
             }, {
-              "nick" : "Loan 3",
+              "nick" : "Credit 3",
               "bbvaCompassAccount" : false,
               "alert" : false,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "LOAN_LOC",
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_LINE",
               "details" : [ {
-                "key" : "Payoff Balance",
-                "value" : 3000
-              }, {
-                "key" : "Next Payment Date",
-                "value" : "11/18/2013"
-              }, {
-                "key" : "Min. Payment Amount",
+                "key" : "Current Balance",
                 "value" : 600
-              } ]
-            } ],
+              }, {
+                "key" : "Available credit",
+                "value" : 3000
+              } ],
+              "number" : "3333"
+            }, {
+              "nick" : "Credit 4",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_LINE",
+              "details" : [ {
+                "key" : "Current Balance",
+                "value" : 800
+              }, {
+                "key" : "Available credit",
+                "value" : 4000
+              } ],
+              "number" : "4444"
+            }, {
+              "nick" : "Credit 5",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_LINE",
+              "details" : [ {
+                "key" : "Current Balance",
+                "value" : 1000
+              }, {
+                "key" : "Available credit",
+                "value" : 5000
+              } ],
+              "number" : "5555"
+            }, {
+              "nick" : "Credit 6",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_LINE",
+              "details" : [ {
+                "key" : "Current Balance",
+                "value" : 1200
+              }, {
+                "key" : "Available credit",
+                "value" : 6000
+              } ],
+              "number" : "6666"
+            }, {
+              "nick" : "Credit 7",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "CREDIT_LINE",
+              "details" : [ {
+                "key" : "Current Balance",
+                "value" : 1400
+              }, {
+                "key" : "Available credit",
+                "value" : 7000
+              } ],
+              "number" : "7777"
+            } ]
+          }, {
+            "type" : "LOAN_MORTGAGE",
+            "total" : "$6000.0",
             "literals" : {
               "title" : "Loan and Mortgage Accounts",
               "header" : {
@@ -1323,44 +1235,80 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
                 "total" : "Total",
                 "legal" : "* Balance shown in an estimated one-day payoff balance."
               }
-            }
+            },
+            "isOpen" : false,
+            "loanMortgateAccounts" : [ {
+              "nick" : "Loan 0",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "LOAN_ALS",
+              "details" : [ {
+                "key" : "Payoff Balance",
+                "value" : 0
+              }, {
+                "key" : "Next Payment Date",
+                "value" : "11/18/2013"
+              }, {
+                "key" : "Min. Payment Amount",
+                "value" : 0
+              } ],
+              "number" : "0000"
+            }, {
+              "nick" : "Loan 1",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "LOAN_ALS",
+              "details" : [ {
+                "key" : "Payoff Balance",
+                "value" : 1000
+              }, {
+                "key" : "Next Payment Date",
+                "value" : "11/18/2013"
+              }, {
+                "key" : "Min. Payment Amount",
+                "value" : 200
+              } ],
+              "number" : "1111"
+            }, {
+              "nick" : "Loan 2",
+              "bbvaCompassAccount" : false,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "LOAN_LOC",
+              "details" : [ {
+                "key" : "Payoff Balance",
+                "value" : 2000
+              }, {
+                "key" : "Next Payment Date",
+                "value" : "11/18/2013"
+              }, {
+                "key" : "Min. Payment Amount",
+                "value" : 400
+              } ],
+              "number" : "2222"
+            }, {
+              "nick" : "Loan 3",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "LOAN_LOC",
+              "details" : [ {
+                "key" : "Payoff Balance",
+                "value" : 3000
+              }, {
+                "key" : "Next Payment Date",
+                "value" : "11/18/2013"
+              }, {
+                "key" : "Min. Payment Amount",
+                "value" : 600
+              } ],
+              "number" : "3333"
+            } ]
           }, {
-            "status" : "OPEN",
             "type" : "INVESTMENT",
             "total" : "$6000.0",
-            "investmentAccounts" : [ {
-              "nick" : "Credit 0",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 0
-            }, {
-              "nick" : "Credit 1",
-              "bbvaCompassAccount" : true,
-              "alert" : false,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 1000
-            }, {
-              "nick" : "Credit 2",
-              "bbvaCompassAccount" : false,
-              "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 2000
-            }, {
-              "nick" : "Credit 3",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "INV",
-              "amount" : 3000
-            } ],
             "literals" : {
               "title" : "Investment Accounts",
               "header" : {
@@ -1372,11 +1320,56 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
               "footer" : {
                 "total" : "Total"
               }
-            }
+            },
+            "isOpen" : true,
+            "investmentAccounts" : [ {
+              "nick" : "Credit 0",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "0000",
+              "amount" : 0
+            }, {
+              "nick" : "Credit 1",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "1111",
+              "amount" : 1000
+            }, {
+              "nick" : "Credit 2",
+              "bbvaCompassAccount" : false,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "2222",
+              "amount" : 2000
+            }, {
+              "nick" : "Credit 3",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "INV",
+              "number" : "3333",
+              "amount" : 3000
+            } ]
           }, {
-            "status" : "OPEN",
             "type" : "REAL_ESTATE",
             "total" : "$15000.0",
+            "literals" : {
+              "title" : "Real Estate",
+              "header" : {
+                "description" : "Description",
+                "percent" : "% Home Equity Amount",
+                "amount" : "Home Equity Amount"
+              },
+              "footer" : {
+                "total" : "Total"
+              }
+            },
+            "isOpen" : true,
             "realEstateAccounts" : [ {
               "nick" : "Real 0",
               "percent" : "0.00%",
@@ -1397,54 +1390,9 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
               "nick" : "Real 4",
               "percent" : "40.00%",
               "amount" : 6000
-            } ],
-            "literals" : {
-              "title" : "Real Estate",
-              "header" : {
-                "description" : "Description",
-                "percent" : "% Home Equity Amount",
-                "amount" : "Home Equity Amount"
-              },
-              "footer" : {
-                "total" : "Total"
-              }
-            }
+            } ]
           }, {
-            "status" : "OPEN",
             "type" : "REWARDS",
-            "rewardsAccounts" : [ {
-              "nick" : "Rewards 0",
-              "bbvaCompassAccount" : true,
-              "alert" : true,
-              "number" : "0000",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "REWARDS",
-              "balance" : 0
-            }, {
-              "nick" : "Rewards 1",
-              "bbvaCompassAccount" : true,
-              "alert" : false,
-              "number" : "1111",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "REWARDS",
-              "balance" : 1000
-            }, {
-              "nick" : "Rewards 2",
-              "bbvaCompassAccount" : false,
-              "alert" : true,
-              "number" : "2222",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "REWARDS",
-              "balance" : 2000
-            }, {
-              "nick" : "Rewards 3",
-              "bbvaCompassAccount" : false,
-              "alert" : false,
-              "number" : "3333",
-              "lastUpdated" : "As of 00:00 hours ago",
-              "type" : "REWARDS",
-              "balance" : 3000
-            } ],
             "literals" : {
               "title" : "Rewards",
               "header" : {
@@ -1453,7 +1401,41 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
                 "number" : "Number",
                 "amount" : "Balance"
               }
-            }
+            },
+            "isOpen" : true,
+            "rewardsAccounts" : [ {
+              "nick" : "Rewards 0",
+              "bbvaCompassAccount" : true,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "REWARDS",
+              "balance" : 0,
+              "number" : "0000"
+            }, {
+              "nick" : "Rewards 1",
+              "bbvaCompassAccount" : true,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "REWARDS",
+              "balance" : 1000,
+              "number" : "1111"
+            }, {
+              "nick" : "Rewards 2",
+              "bbvaCompassAccount" : false,
+              "alert" : true,
+              "lastUpdated" : "05:29",
+              "type" : "REWARDS",
+              "balance" : 2000,
+              "number" : "2222"
+            }, {
+              "nick" : "Rewards 3",
+              "bbvaCompassAccount" : false,
+              "alert" : false,
+              "lastUpdated" : "05:29",
+              "type" : "REWARDS",
+              "balance" : 3000,
+              "number" : "3333"
+            } ]
           } ]
         }
         
