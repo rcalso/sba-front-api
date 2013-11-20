@@ -1931,18 +1931,18 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
 
         <li
             class="js-widget js-CREDITCARD_LINEOFCREDIT_OVERDRAFTPROTECTION m-widgets g-block g-marginXL g-paddingB g-borderSSCS g-backgroundD"
-            data-widget-id="" data-collapse="true" data-widget-loading="">
+            data-widget-id="" data-collapse="" data-widget-loading="">
             <div class="m-widgets-head g-relative">
                 <h3
                     class="m-widgets-title g-absolute g-left g-textTruncate g-primaryTexts g-colorZ"></h3>
                 <button
-                    class="js-collapse m-widgets-collapse e-icon-collapse g-absolute"></button>
+                    class="js-collapse m-widgets-collapse e-icon-collapse e-icon-expand g-absolute"></button>
                 <h3
                     class="m-widgets-title g-absolute g-leftXXL g-textTruncate g-primaryTexts g-colorZ">
-                    Credit Card, Line of Credit and Overdraft Protection - Credit Card</h3>
+                    Credit Card, Line of Credit and Overdraft Protection</h3>
                 <button class="js-close m-widgets-close e-icon-close g-absolute">Close</button>
             </div>
-            <div class="js-content m-widgets-content g-backgroundA">
+            <div class="m-widgets-content g-backgroundA">
                 <table class="m-widgetstables g-full">
                     <colgroup>
                         <col class="p-summary-widgetsCol-alert">
@@ -1950,7 +1950,7 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
                         <col class="p-summary-widgetsCol-type">
                         <col class="p-summary-widgetsCol-details">
                     </colgroup>
-                    <thead>
+                    <thead class="js-content-collapsable g-sr">
                         <tr>
                             <th
                                 class="p-summary-widgetsHead-alert g-borderLSSCSZ g-paddingTBRLM g-backgroundD g-textCenter g-bold g-colorR"
@@ -1970,34 +1970,28 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
                         <tr>
                             <td class="g-paddingT g-paddingRLM g-colorU" scope="row"
                                 colspan="3">Total:</td>
-                            <td class="g-paddingT g-paddingRLM g-bold g-colorQ">$1200.0</td>
+                            <td class="g-paddingT g-paddingRLM g-bold g-colorQ">$1,200.00</td>
                         </tr>
                     </tfoot>
-                    <tbody>
+                    <tbody class="js-content-collapsable g-sr">
                         <tr class="g-borderTSSCS">
                             <td class="g-paddingTBRLM g-backgroundAccount g-textCenter"><span
                                 class="e-icon-alert"> <span class="g-sr">Alert</span>
                             </span></td>
                             <td class="g-borderLSSCS g-paddingTBRLM">
                                 <p class="g-margin">
-                                    <a href=""><span class="g-bold">Credit 0</span> </a>
+                                    <a href=""><span class="g-bold">Credit 0</span> 0000</a>
                                 </p>
-                                <p>As of 00:00 hours ago</p>
+                                <p>11:17</p>
                             </td>
                             <td class="g-borderLSSCS g-paddingTBRLM g-textCenter">CREDIT_CARD</td>
                             <td class="g-borderLSSCS g-paddingT g-paddingRLM">
                                 <ul>
-                                    <li class="g-paddingB g-bold g-colorZ">Current Balance <span
-                                        class="g-floatR">0</span>
-                                    </li>
-                                    <li class="g-paddingB">Available credit <span
-                                        class="g-floatR">0</span>
+                                    <li class="g-paddingB g-bold g-colorZ">Posted Balance <span
+                                        class="g-floatR">$00.00</span>
                                     </li>
                                     <li class="g-paddingB">Next Payment Date <span
-                                        class="g-floatR">1384187650500</span>
-                                    </li>
-                                    <li class="g-paddingB">Min. Payment Amount <span
-                                        class="g-floatR">200</span>
+                                        class="g-floatR">11/20/2013</span>
                                     </li>
                                 </ul>
                             </td>
@@ -2006,18 +2000,21 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
                             <td class="g-paddingTBRLM g-backgroundAccount g-textCenter"></td>
                             <td class="g-borderLSSCS g-paddingTBRLM">
                                 <p class="g-margin">
-                                    <a href=""><span class="g-bold">Credit 1</span> </a>
+                                    <a href=""><span class="g-bold">Credit 1</span> 1111</a>
                                 </p>
-                                <p>As of 00:00 hours ago</p>
+                                <p>11:17</p>
                             </td>
                             <td class="g-borderLSSCS g-paddingTBRLM g-textCenter">CREDIT_LINE</td>
                             <td class="g-borderLSSCS g-paddingT g-paddingRLM">
                                 <ul>
-                                    <li class="g-paddingB g-bold g-colorZ">Current Balance <span
-                                        class="g-floatR">200</span>
+                                    <li class="g-paddingB g-bold g-colorZ">Posted Balance <span
+                                        class="g-floatR">$200.00</span>
                                     </li>
-                                    <li class="g-paddingB">Available credit <span
+                                    <li class="g-paddingB">Available Credit <span
                                         class="g-floatR">1000</span>
+                                    </li>
+                                    <li class="g-paddingB">Next Payment Date <span
+                                        class="g-floatR">11/20/2013</span>
                                     </li>
                                 </ul>
                             </td>
@@ -2028,24 +2025,21 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
                             </span></td>
                             <td class="g-borderLSSCS g-paddingTBRLM">
                                 <p class="g-margin">
-                                    <a href=""><span class="g-bold">Credit 2</span> </a>
+                                    <a href=""><span class="g-bold">Credit 2</span> 2222</a>
                                 </p>
-                                <p>As of 00:00 hours ago</p>
+                                <p>11:17</p>
                             </td>
                             <td class="g-borderLSSCS g-paddingTBRLM g-textCenter">CREDIT_CARD</td>
                             <td class="g-borderLSSCS g-paddingT g-paddingRLM">
                                 <ul>
-                                    <li class="g-paddingB g-bold g-colorZ">Current Balance <span
-                                        class="g-floatR">400</span>
+                                    <li class="g-paddingB g-bold g-colorZ">Posted Balance <span
+                                        class="g-floatR">$400.00</span>
                                     </li>
-                                    <li class="g-paddingB">Available credit <span
+                                    <li class="g-paddingB">Available Credit <span
                                         class="g-floatR">2000</span>
                                     </li>
                                     <li class="g-paddingB">Next Payment Date <span
-                                        class="g-floatR">1384187650500</span>
-                                    </li>
-                                    <li class="g-paddingB">Min. Payment Amount <span
-                                        class="g-floatR">200</span>
+                                        class="g-floatR">11/20/2013</span>
                                     </li>
                                 </ul>
                             </td>
@@ -2054,18 +2048,21 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
                             <td class="g-paddingTBRLM g-textCenter"></td>
                             <td class="g-borderLSSCS g-paddingTBRLM">
                                 <p class="g-margin">
-                                    <a href=""><span class="g-bold">Credit 3</span> </a>
+                                    <a href=""><span class="g-bold">Credit 3</span> 3333</a>
                                 </p>
-                                <p>As of 00:00 hours ago</p>
+                                <p>11:17</p>
                             </td>
                             <td class="g-borderLSSCS g-paddingTBRLM g-textCenter">CREDIT_LINE</td>
                             <td class="g-borderLSSCS g-paddingT g-paddingRLM">
                                 <ul>
-                                    <li class="g-paddingB g-bold g-colorZ">Current Balance <span
-                                        class="g-floatR">600</span>
+                                    <li class="g-paddingB g-bold g-colorZ">Posted Balance <span
+                                        class="g-floatR">$600.00</span>
                                     </li>
-                                    <li class="g-paddingB">Available credit <span
+                                    <li class="g-paddingB">Available Credit <span
                                         class="g-floatR">3000</span>
+                                    </li>
+                                    <li class="g-paddingB">Next Payment Date <span
+                                        class="g-floatR">11/20/2013</span>
                                     </li>
                                 </ul>
                             </td>
