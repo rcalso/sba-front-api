@@ -1474,3 +1474,32 @@ El content-type json, se utilizará únicamente en modo de desarrollo, ya que pa
 ### excel [GET]
 
 + Response 200
+
+# Group Mocks y comportamientos extra
+## Account Summary Load [/accountsummary/load?mock=COMPSBA-186]
+
+### COMPSBA-186 [GET]
+<https://medianet.atlassian.net/browse/COMPSBA-186>
+
++ Response 200 (application/json)
+
+        {"summary":
+        {
+          "widgets" : [ {
+            "type" : "CHECKING_SAVING",
+            "isOpen" : true,
+            "checkingSavingMoneyMarketAccounts" : [ ],
+            "totalPosted" : "$00.00",
+            "totalAvailable" : "$00.00"
+          }, {
+            "type" : "CD_RETIREMENT",
+            "isOpen" : true,
+            "certificateDepositRetirementAccounts" : [ ],
+            "total" : "$00.00"
+          }, {
+            "type" : "CREDITCARD_LINEOFCREDIT_OVERDRAFTPROTECTION",
+            "isOpen" : true,
+            "creditCardLineCreditOverdraftProtectionAccounts" : [ ],
+            "total" : "$00.00"
+          } ]
+        }}
