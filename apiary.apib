@@ -23,8 +23,8 @@ Services involved in **Account Summary API**
             "name" : "John McClane",
             "messages" : 42,
             "lastSignIn" : {
-              "iso8601" : "2013-12-30T11:28:52.533Z",
-              "humanReadability" : "Mon, 12/30/2013 at 11:28 AM"
+              "iso8601" : "2013-12-30T12:28:59.334Z",
+              "humanReadability" : "Mon, 12/30/2013 at 12:28 PM"
             }
           },
           "widgets" : [ {
@@ -34,7 +34,7 @@ Services involved in **Account Summary API**
               "nick" : "Checking 1",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "CHECKING",
               "number" : "0000",
               "posted" : "$10,000.00",
@@ -43,25 +43,25 @@ Services involved in **Account Summary API**
               "nick" : "Checking 2",
               "bbvaCompassAccount" : true,
               "alert" : false,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "CHECKING",
               "number" : "1111",
               "posted" : "$10,000.00",
               "available" : "$9,000.00"
             }, {
               "nick" : "Checking 3",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "CHECKING",
               "number" : "2222",
               "posted" : "$10,000.00",
               "available" : "$9,000.00"
             }, {
               "nick" : "Checking 4",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "alert" : false,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "CHECKING",
               "number" : "3333",
               "posted" : "$10,000.00",
@@ -71,12 +71,12 @@ Services involved in **Account Summary API**
             "totalAvailable" : "$36,000.00"
           }, {
             "type" : "CD_RETIREMENT",
-            "isOpen" : true,
+            "isOpen" : false,
             "certificateDepositRetirementAccounts" : [ {
               "nick" : "Retirement 0",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "CD",
               "number" : "0000",
               "amount" : "$00.00"
@@ -84,7 +84,7 @@ Services involved in **Account Summary API**
               "nick" : "Retirement 1",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "CD",
               "number" : "1111",
               "amount" : "$1,000.00"
@@ -92,7 +92,7 @@ Services involved in **Account Summary API**
               "nick" : "Retirement 2",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "CD",
               "number" : "2222",
               "amount" : "$2,000.00"
@@ -100,7 +100,7 @@ Services involved in **Account Summary API**
               "nick" : "Retirement 3",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "CD",
               "number" : "3333",
               "amount" : "$3,000.00"
@@ -108,7 +108,7 @@ Services involved in **Account Summary API**
               "nick" : "Retirement 4",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "CD",
               "number" : "4444",
               "amount" : "$4,000.00"
@@ -116,12 +116,12 @@ Services involved in **Account Summary API**
             "total" : "$10,000.00"
           }, {
             "type" : "INVESTMENT",
-            "isOpen" : false,
+            "isOpen" : true,
             "investmentAccounts" : [ {
               "nick" : "Credit 0",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "INV",
               "number" : "0000",
               "amount" : "$00.00"
@@ -129,23 +129,23 @@ Services involved in **Account Summary API**
               "nick" : "Credit 1",
               "bbvaCompassAccount" : true,
               "alert" : false,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "INV",
               "number" : "1111",
               "amount" : "$1,000.00"
             }, {
               "nick" : "Credit 2",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "INV",
               "number" : "2222",
               "amount" : "$2,000.00"
             }, {
               "nick" : "Credit 3",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "alert" : false,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "INV",
               "number" : "3333",
               "amount" : "$3,000.00"
@@ -158,7 +158,7 @@ Services involved in **Account Summary API**
               "nick" : "Credit 0",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "CREDIT_CARD",
               "number" : "0000",
               "posted" : "$00.00",
@@ -169,7 +169,7 @@ Services involved in **Account Summary API**
               "nick" : "Credit 1",
               "bbvaCompassAccount" : true,
               "alert" : false,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "CREDIT_LINE",
               "number" : "1111",
               "posted" : "$200.00",
@@ -178,9 +178,9 @@ Services involved in **Account Summary API**
               "minAmount" : "$200.00"
             }, {
               "nick" : "Credit 2",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "CREDIT_CARD",
               "number" : "2222",
               "posted" : "$400.00",
@@ -189,9 +189,9 @@ Services involved in **Account Summary API**
               "minAmount" : "$200.00"
             }, {
               "nick" : "Credit 3",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "alert" : false,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "CREDIT_LINE",
               "number" : "3333",
               "posted" : "$600.00",
@@ -207,7 +207,7 @@ Services involved in **Account Summary API**
               "nick" : "Loan 0",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "LOAN_ALS",
               "number" : "0000",
               "payOff" : "$00.00",
@@ -217,7 +217,7 @@ Services involved in **Account Summary API**
               "nick" : "Loan 1",
               "bbvaCompassAccount" : true,
               "alert" : false,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "LOAN_ALS",
               "number" : "1111",
               "payOff" : "$1,000.00",
@@ -225,9 +225,9 @@ Services involved in **Account Summary API**
               "nextAmount" : "$200.00"
             }, {
               "nick" : "Loan 2",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "LOAN_LOC",
               "number" : "2222",
               "payOff" : "$2,000.00",
@@ -235,9 +235,9 @@ Services involved in **Account Summary API**
               "nextAmount" : "$400.00"
             }, {
               "nick" : "Loan 3",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "alert" : false,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "LOAN_LOC",
               "number" : "3333",
               "payOff" : "$3,000.00",
@@ -250,27 +250,27 @@ Services involved in **Account Summary API**
             "isOpen" : false,
             "realEstateAccounts" : [ {
               "nick" : "Real 0",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "percent" : "00.00%",
               "amount" : "$00.00"
             }, {
               "nick" : "Real 1",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "percent" : "10.00%",
               "amount" : "$10.00"
             }, {
               "nick" : "Real 2",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "percent" : "20.00%",
               "amount" : "$20.00"
             }, {
               "nick" : "Real 3",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "percent" : "30.00%",
               "amount" : "$30.00"
             }, {
               "nick" : "Real 4",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "percent" : "40.00%",
               "amount" : "$40.00"
             } ],
@@ -282,7 +282,7 @@ Services involved in **Account Summary API**
               "nick" : "Rewards 0",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "REWARDS",
               "balance" : "$00.00",
               "number" : "0000"
@@ -290,23 +290,23 @@ Services involved in **Account Summary API**
               "nick" : "Rewards 1",
               "bbvaCompassAccount" : true,
               "alert" : false,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "REWARDS",
               "balance" : "$1,000.00",
               "number" : "1111"
             }, {
               "nick" : "Rewards 2",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "REWARDS",
               "balance" : "$2,000.00",
               "number" : "2222"
             }, {
               "nick" : "Rewards 3",
-              "bbvaCompassAccount" : false,
+              "bbvaCompassAccount" : true,
               "alert" : false,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:28",
               "type" : "REWARDS",
               "balance" : "$3,000.00",
               "number" : "3333"
@@ -331,7 +331,7 @@ Services involved in **Account Summary API**
             "nick" : "Checking 1",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CHECKING",
             "number" : "0000",
             "posted" : "$10,000.00",
@@ -340,25 +340,25 @@ Services involved in **Account Summary API**
             "nick" : "Checking 2",
             "bbvaCompassAccount" : true,
             "alert" : false,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CHECKING",
             "number" : "1111",
             "posted" : "$10,000.00",
             "available" : "$9,000.00"
           }, {
             "nick" : "Checking 3",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CHECKING",
             "number" : "2222",
             "posted" : "$10,000.00",
             "available" : "$9,000.00"
           }, {
             "nick" : "Checking 4",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "alert" : false,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CHECKING",
             "number" : "3333",
             "posted" : "$10,000.00",
@@ -368,12 +368,12 @@ Services involved in **Account Summary API**
           "totalAvailable" : "$36,000.00"
         }, {
           "type" : "CD_RETIREMENT",
-          "isOpen" : true,
+          "isOpen" : false,
           "certificateDepositRetirementAccounts" : [ {
             "nick" : "Retirement 0",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CD",
             "number" : "0000",
             "amount" : "$00.00"
@@ -381,7 +381,7 @@ Services involved in **Account Summary API**
             "nick" : "Retirement 1",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CD",
             "number" : "1111",
             "amount" : "$1,000.00"
@@ -389,7 +389,7 @@ Services involved in **Account Summary API**
             "nick" : "Retirement 2",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CD",
             "number" : "2222",
             "amount" : "$2,000.00"
@@ -397,7 +397,7 @@ Services involved in **Account Summary API**
             "nick" : "Retirement 3",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CD",
             "number" : "3333",
             "amount" : "$3,000.00"
@@ -405,7 +405,7 @@ Services involved in **Account Summary API**
             "nick" : "Retirement 4",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CD",
             "number" : "4444",
             "amount" : "$4,000.00"
@@ -418,7 +418,7 @@ Services involved in **Account Summary API**
             "nick" : "Credit 0",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "INV",
             "number" : "0000",
             "amount" : "$00.00"
@@ -426,23 +426,23 @@ Services involved in **Account Summary API**
             "nick" : "Credit 1",
             "bbvaCompassAccount" : true,
             "alert" : false,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "INV",
             "number" : "1111",
             "amount" : "$1,000.00"
           }, {
             "nick" : "Credit 2",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "INV",
             "number" : "2222",
             "amount" : "$2,000.00"
           }, {
             "nick" : "Credit 3",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "alert" : false,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "INV",
             "number" : "3333",
             "amount" : "$3,000.00"
@@ -455,7 +455,7 @@ Services involved in **Account Summary API**
             "nick" : "Credit 0",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CREDIT_CARD",
             "number" : "0000",
             "posted" : "$00.00",
@@ -466,7 +466,7 @@ Services involved in **Account Summary API**
             "nick" : "Credit 1",
             "bbvaCompassAccount" : true,
             "alert" : false,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CREDIT_LINE",
             "number" : "1111",
             "posted" : "$200.00",
@@ -475,9 +475,9 @@ Services involved in **Account Summary API**
             "minAmount" : "$200.00"
           }, {
             "nick" : "Credit 2",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CREDIT_CARD",
             "number" : "2222",
             "posted" : "$400.00",
@@ -486,9 +486,9 @@ Services involved in **Account Summary API**
             "minAmount" : "$200.00"
           }, {
             "nick" : "Credit 3",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "alert" : false,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CREDIT_LINE",
             "number" : "3333",
             "posted" : "$600.00",
@@ -504,7 +504,7 @@ Services involved in **Account Summary API**
             "nick" : "Loan 0",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "LOAN_ALS",
             "number" : "0000",
             "payOff" : "$00.00",
@@ -514,7 +514,7 @@ Services involved in **Account Summary API**
             "nick" : "Loan 1",
             "bbvaCompassAccount" : true,
             "alert" : false,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "LOAN_ALS",
             "number" : "1111",
             "payOff" : "$1,000.00",
@@ -522,9 +522,9 @@ Services involved in **Account Summary API**
             "nextAmount" : "$200.00"
           }, {
             "nick" : "Loan 2",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "LOAN_LOC",
             "number" : "2222",
             "payOff" : "$2,000.00",
@@ -532,9 +532,9 @@ Services involved in **Account Summary API**
             "nextAmount" : "$400.00"
           }, {
             "nick" : "Loan 3",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "alert" : false,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "LOAN_LOC",
             "number" : "3333",
             "payOff" : "$3,000.00",
@@ -547,39 +547,39 @@ Services involved in **Account Summary API**
           "isOpen" : true,
           "realEstateAccounts" : [ {
             "nick" : "Real 0",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "percent" : "00.00%",
             "amount" : "$00.00"
           }, {
             "nick" : "Real 1",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "percent" : "10.00%",
             "amount" : "$10.00"
           }, {
             "nick" : "Real 2",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "percent" : "20.00%",
             "amount" : "$20.00"
           }, {
             "nick" : "Real 3",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "percent" : "30.00%",
             "amount" : "$30.00"
           }, {
             "nick" : "Real 4",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "percent" : "40.00%",
             "amount" : "$40.00"
           } ],
           "total" : "$100.00"
         }, {
           "type" : "REWARDS",
-          "isOpen" : true,
+          "isOpen" : false,
           "rewardsAccounts" : [ {
             "nick" : "Rewards 0",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "REWARDS",
             "balance" : "$00.00",
             "number" : "0000"
@@ -587,23 +587,23 @@ Services involved in **Account Summary API**
             "nick" : "Rewards 1",
             "bbvaCompassAccount" : true,
             "alert" : false,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "REWARDS",
             "balance" : "$1,000.00",
             "number" : "1111"
           }, {
             "nick" : "Rewards 2",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "REWARDS",
             "balance" : "$2,000.00",
             "number" : "2222"
           }, {
             "nick" : "Rewards 3",
-            "bbvaCompassAccount" : false,
+            "bbvaCompassAccount" : true,
             "alert" : false,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "REWARDS",
             "balance" : "$3,000.00",
             "number" : "3333"
@@ -642,8 +642,8 @@ Services involved in **Account Summary API**
             "name" : "John McClane",
             "messages" : 42,
             "lastSignIn" : {
-              "iso8601" : "2013-12-30T11:28:54.163Z",
-              "humanReadability" : "Mon, 12/30/2013 at 11:28 AM"
+              "iso8601" : "2013-12-30T12:29:01.313Z",
+              "humanReadability" : "Mon, 12/30/2013 at 12:29 PM"
             }
           },
           "widgets" : [ {
@@ -719,8 +719,8 @@ Services involved in **Account Summary API**
             "name" : "John McClane",
             "messages" : 42,
             "lastSignIn" : {
-              "iso8601" : "2013-12-30T11:28:54.355Z",
-              "humanReadability" : "Mon, 12/30/2013 at 11:28 AM"
+              "iso8601" : "2013-12-30T12:29:01.663Z",
+              "humanReadability" : "Mon, 12/30/2013 at 12:29 PM"
             }
           },
           "widgets" : [ {
@@ -730,7 +730,7 @@ Services involved in **Account Summary API**
               "nick" : "Credit 0",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:29",
               "type" : "CREDIT_CARD",
               "number" : "0000",
               "posted" : "$00.00",
@@ -741,7 +741,7 @@ Services involved in **Account Summary API**
               "nick" : "Credit 1",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:29",
               "type" : "CREDIT_LINE",
               "number" : "1111",
               "posted" : "$200.00",
@@ -752,7 +752,7 @@ Services involved in **Account Summary API**
               "nick" : "Credit 2",
               "bbvaCompassAccount" : true,
               "alert" : false,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:29",
               "type" : "CREDIT_CARD",
               "number" : "2222",
               "posted" : "$400.00",
@@ -763,7 +763,7 @@ Services involved in **Account Summary API**
               "nick" : "Credit 3",
               "bbvaCompassAccount" : true,
               "alert" : false,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:29",
               "type" : "CREDIT_LINE",
               "number" : "3333",
               "posted" : "$600.00",
@@ -792,7 +792,7 @@ Services involved in **Account Summary API**
             "nick" : "Credit 0",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CREDIT_CARD",
             "number" : "0000",
             "posted" : "$00.00",
@@ -803,7 +803,7 @@ Services involved in **Account Summary API**
             "nick" : "Credit 1",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CREDIT_LINE",
             "number" : "1111",
             "posted" : "$200.00",
@@ -814,7 +814,7 @@ Services involved in **Account Summary API**
             "nick" : "Credit 2",
             "bbvaCompassAccount" : true,
             "alert" : false,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CREDIT_CARD",
             "number" : "2222",
             "posted" : "$400.00",
@@ -825,7 +825,7 @@ Services involved in **Account Summary API**
             "nick" : "Credit 3",
             "bbvaCompassAccount" : true,
             "alert" : false,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CREDIT_LINE",
             "number" : "3333",
             "posted" : "$600.00",
@@ -856,8 +856,8 @@ Services involved in **Account Summary API**
             "name" : "John McClane",
             "messages" : 42,
             "lastSignIn" : {
-              "iso8601" : "2013-12-30T11:28:54.455Z",
-              "humanReadability" : "Mon, 12/30/2013 at 11:28 AM"
+              "iso8601" : "2013-12-30T12:29:02.078Z",
+              "humanReadability" : "Mon, 12/30/2013 at 12:29 PM"
             }
           },
           "widgets" : [ {
@@ -908,8 +908,8 @@ Services involved in **Account Summary API**
             "name" : "John McClane",
             "messages" : 42,
             "lastSignIn" : {
-              "iso8601" : "2013-12-30T11:28:54.579Z",
-              "humanReadability" : "Mon, 12/30/2013 at 11:28 AM"
+              "iso8601" : "2013-12-30T12:29:02.277Z",
+              "humanReadability" : "Mon, 12/30/2013 at 12:29 PM"
             }
           },
           "widgets" : [ {
@@ -919,7 +919,7 @@ Services involved in **Account Summary API**
               "nick" : "Checking 1",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:29",
               "type" : "CHECKING",
               "number" : "0000",
               "posted" : "$10,000.00",
@@ -928,7 +928,7 @@ Services involved in **Account Summary API**
               "nick" : "Checking 2",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:29",
               "type" : "CHECKING",
               "number" : "1111",
               "posted" : "$10,000.00",
@@ -937,7 +937,7 @@ Services involved in **Account Summary API**
               "nick" : "Checking 3",
               "bbvaCompassAccount" : true,
               "alert" : false,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:29",
               "type" : "CHECKING",
               "number" : "2222",
               "posted" : "$10,000.00",
@@ -946,7 +946,7 @@ Services involved in **Account Summary API**
               "nick" : "Checking 4",
               "bbvaCompassAccount" : true,
               "alert" : false,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:29",
               "type" : "CHECKING",
               "number" : "3333",
               "posted" : "$10,000.00",
@@ -972,7 +972,7 @@ Services involved in **Account Summary API**
             "nick" : "Checking 1",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CHECKING",
             "number" : "0000",
             "posted" : "$10,000.00",
@@ -981,7 +981,7 @@ Services involved in **Account Summary API**
             "nick" : "Checking 2",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CHECKING",
             "number" : "1111",
             "posted" : "$10,000.00",
@@ -990,7 +990,7 @@ Services involved in **Account Summary API**
             "nick" : "Checking 3",
             "bbvaCompassAccount" : true,
             "alert" : false,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CHECKING",
             "number" : "2222",
             "posted" : "$10,000.00",
@@ -999,7 +999,7 @@ Services involved in **Account Summary API**
             "nick" : "Checking 4",
             "bbvaCompassAccount" : true,
             "alert" : false,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CHECKING",
             "number" : "3333",
             "posted" : "$10,000.00",
@@ -1029,8 +1029,8 @@ Services involved in **Account Summary API**
             "name" : "John McClane",
             "messages" : 42,
             "lastSignIn" : {
-              "iso8601" : "2013-12-30T11:28:54.679Z",
-              "humanReadability" : "Mon, 12/30/2013 at 11:28 AM"
+              "iso8601" : "2013-12-30T12:29:02.396Z",
+              "humanReadability" : "Mon, 12/30/2013 at 12:29 PM"
             }
           },
           "widgets" : [ {
@@ -1080,8 +1080,8 @@ Services involved in **Account Summary API**
             "name" : "John McClane",
             "messages" : 42,
             "lastSignIn" : {
-              "iso8601" : "2013-12-30T11:28:54.742Z",
-              "humanReadability" : "Mon, 12/30/2013 at 11:28 AM"
+              "iso8601" : "2013-12-30T12:29:02.530Z",
+              "humanReadability" : "Mon, 12/30/2013 at 12:29 PM"
             }
           },
           "widgets" : [ {
@@ -1091,7 +1091,7 @@ Services involved in **Account Summary API**
               "nick" : "Retirement 0",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:29",
               "type" : "CD",
               "number" : "0000",
               "amount" : "$00.00"
@@ -1099,7 +1099,7 @@ Services involved in **Account Summary API**
               "nick" : "Retirement 1",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:29",
               "type" : "CD",
               "number" : "1111",
               "amount" : "$1,000.00"
@@ -1107,7 +1107,7 @@ Services involved in **Account Summary API**
               "nick" : "Retirement 2",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:29",
               "type" : "CD",
               "number" : "2222",
               "amount" : "$2,000.00"
@@ -1115,7 +1115,7 @@ Services involved in **Account Summary API**
               "nick" : "Retirement 3",
               "bbvaCompassAccount" : true,
               "alert" : true,
-              "lastUpdated" : "11:28",
+              "lastUpdated" : "12:29",
               "type" : "CD",
               "number" : "3333",
               "amount" : "$3,000.00"
@@ -1139,7 +1139,7 @@ Services involved in **Account Summary API**
             "nick" : "Retirement 0",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CD",
             "number" : "0000",
             "amount" : "$00.00"
@@ -1147,7 +1147,7 @@ Services involved in **Account Summary API**
             "nick" : "Retirement 1",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CD",
             "number" : "1111",
             "amount" : "$1,000.00"
@@ -1155,7 +1155,7 @@ Services involved in **Account Summary API**
             "nick" : "Retirement 2",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CD",
             "number" : "2222",
             "amount" : "$2,000.00"
@@ -1163,7 +1163,7 @@ Services involved in **Account Summary API**
             "nick" : "Retirement 3",
             "bbvaCompassAccount" : true,
             "alert" : true,
-            "lastUpdated" : "11:28",
+            "lastUpdated" : "12:29",
             "type" : "CD",
             "number" : "3333",
             "amount" : "$3,000.00"
@@ -1191,8 +1191,8 @@ Services involved in **Account Summary API**
             "name" : "John McClane",
             "messages" : 42,
             "lastSignIn" : {
-              "iso8601" : "2013-12-30T11:28:54.808Z",
-              "humanReadability" : "Mon, 12/30/2013 at 11:28 AM"
+              "iso8601" : "2013-12-30T12:29:02.781Z",
+              "humanReadability" : "Mon, 12/30/2013 at 12:29 PM"
             }
           },
           "widgets" : [ {
@@ -1240,8 +1240,8 @@ Services involved in **Account Summary API**
             "name" : "Hans Gruber",
             "messages" : 42,
             "lastSignIn" : {
-              "iso8601" : "2013-12-30T11:28:54.876Z",
-              "humanReadability" : "Mon, 12/30/2013 at 11:28 AM"
+              "iso8601" : "2013-12-30T12:29:02.942Z",
+              "humanReadability" : "Mon, 12/30/2013 at 12:29 PM"
             }
           },
           "widgets" : [ {
@@ -1309,8 +1309,8 @@ Services involved in **Account Summary API**
             "name" : "John McClane",
             "messages" : 3,
             "lastSignIn" : {
-              "iso8601" : "2013-12-30T11:28:55.044Z",
-              "humanReadability" : "Mon, 12/30/2013 at 11:28 AM"
+              "iso8601" : "2013-12-30T12:29:03.298Z",
+              "humanReadability" : "Mon, 12/30/2013 at 12:29 PM"
             }
           },
           "widgets" : [ {
